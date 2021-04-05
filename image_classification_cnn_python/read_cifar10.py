@@ -1,13 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""
-File: read_cifar10.py
-Desc: 读取cifar10数据集的图片和label，并生成以序号+label命名的图片
-Author:yanjingang(yanjingang@mail.com)
-Date: 2018/12/25 23:12
-Cmd: nohup python read_cifar10.py >log/read_cifar10.log &
-"""
 
 import os
 import sys
