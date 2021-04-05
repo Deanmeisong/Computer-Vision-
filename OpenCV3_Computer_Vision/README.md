@@ -50,9 +50,3 @@ python:3.6.1 (v3.6.1:69c0db5, Mar 21 2017, 17:54:52) [MSC v.1900 32 bit (Intel)]
     * 基于级联检测器的人脸识别（haarcascade_frontalface_alt_tree.xml）：需要光线较强的情况下才能比较准确。
     * 基于OpenCV+Tesserct-OCR的数字验证码识别：OpenCV预处理、Tesserct-OCR验证码识别。
 
-## 有问题反馈
-在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
-
-* Email:864987080@qq.com
-* Bolg: [@日出了的博客](https://richule.com)
-
