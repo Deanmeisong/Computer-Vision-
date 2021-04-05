@@ -1,13 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""
-File: train.py
-Desc: 图像分类模型（resnet|vgg）
-Author:yanjingang(yanjingang@mail.com)
-Date: 2018/12/26 23:34
-Cmd: python train.py
-"""
 
 from __future__ import print_function
 import sys
