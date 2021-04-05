@@ -159,10 +159,3 @@ Dlib Model Training
 
 Tesseract Model Training
 
-
-
-# Contributor
-
-[archersmind](https://github.com/archersmind)
-
-[rishab-sharma](https://github.com/rishab-sharma)
