@@ -1,17 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""
-File: api_image_classification.py
-Desc: 图像分类 ml模型 API 封装
-Demo: 
-    cd /home/work/piglab/webservice/service/ && nohup python api_image_classification.py > log/api_image_classification.log &
-    #图像分类
-    http://www.yanjingang.com:8022/piglab/image/classification?img_file=/home/work/piglab/machinelearning/image/classification/data/image/infer_dog.png
 
-    ps aux | grep api_image_classification.py |grep -v grep| cut -c 9-15 | xargs kill -9
-Author: yanjingang(yanjingang@mail.com)
-Date: 2018/12/28 23:08
-"""
 
 import sys
 import os
