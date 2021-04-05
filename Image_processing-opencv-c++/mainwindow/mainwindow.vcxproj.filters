@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\main_ui">
+      <UniqueIdentifier>{eab74640-651d-404b-90ec-10c47631f676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\main_ui">
+      <UniqueIdentifier>{da9a8d5b-949c-45c1-8724-757d2f5c09af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\image_widget_ui">
+      <UniqueIdentifier>{bd989a3e-ee0a-4fb2-bae4-e39e99f92caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\image_widget_ui">
+      <UniqueIdentifier>{9d429486-f06f-40a4-9611-41f5ed00b5d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mat2QImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageProcessing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Binary.cpp">
+      <Filter>Source Files\image_widget_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearGrayScale.cpp">
+      <Filter>Source Files\image_widget_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="PieceWiselinearGrayScale.cpp">
+      <Filter>Source Files\image_widget_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files\main_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="CutColor.cpp">
+      <Filter>Source Files\image_widget_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="LoglinearGrayScale.cpp">
+      <Filter>Source Files\image_widget_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerLawGrayScale.cpp">
+      <Filter>Source Files\image_widget_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="EdgeDetection.cpp">
+      <Filter>Source Files\image_widget_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="FreqFilter.cpp">
+      <Filter>Source Files\image_widget_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Histogram.cpp">
+      <Filter>Source Files\image_widget_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceFilter.cpp">
+      <Filter>Source Files\image_widget_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="DctTransformation.cpp">
+      <Filter>Source Files\image_widget_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="videoProcessing.cpp">
+      <Filter>Source Files\main_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="imageOrVideo.cpp">
+      <Filter>Source Files\main_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Binary.h">
+      <Filter>Header Files\image_widget_ui</Filter>
+    </QtMoc>
+    <QtMoc Include="LinearGrayScale.h">
+      <Filter>Header Files\image_widget_ui</Filter>
+    </QtMoc>
+    <QtMoc Include="PieceWiselinearGrayScale.h">
+      <Filter>Header Files\image_widget_ui</Filter>
+    </QtMoc>
+    <QtMoc Include="mainwindow.h">
+      <Filter>Header Files\main_ui</Filter>
+    </QtMoc>
+    <QtMoc Include="CutColor.h">
+      <Filter>Header Files\image_widget_ui</Filter>
+    </QtMoc>
+    <QtMoc Include="LoglinearGrayScale.h">
+      <Filter>Header Files\image_widget_ui</Filter>
+    </QtMoc>
+    <QtMoc Include="PowerLawGrayScale.h">
+      <Filter>Header Files\image_widget_ui</Filter>
+    </QtMoc>
+    <QtMoc Include="EdgeDetection.h">
+      <Filter>Header Files\image_widget_ui</Filter>
+    </QtMoc>
+    <QtMoc Include="FreqFilter.h">
+      <Filter>Header Files\image_widget_ui</Filter>
+    </QtMoc>
+    <QtMoc Include="Histogram.h">
+      <Filter>Header Files\image_widget_ui</Filter>
+    </QtMoc>
+    <QtMoc Include="SpaceFilter.h">
+      <Filter>Header Files\image_widget_ui</Filter>
+    </QtMoc>
+    <QtMoc Include="DctTransformation.h">
+      <Filter>Header Files\image_widget_ui</Filter>
+    </QtMoc>
+    <QtMoc Include="videoProcessing.h">
+      <Filter>Header Files\main_ui</Filter>
+    </QtMoc>
+    <QtMoc Include="imageOrVideo.h">
+      <Filter>Header Files\main_ui</Filter>
+    </QtMoc>
+    <QtMoc Include="AboutWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Binary.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="LinearGrayScale.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="PieceWiselinearGrayScale.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="CutColor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="PowerLawGrayScale.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="LoglinearGrayScale.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="EdgeDetection.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Histogram.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="FreqFilter.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="SpaceFilter.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="DctTransformation.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="videoProcessing.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="imageOrVideo.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="AboutWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="mainwindow.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mat2QImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProcessing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="mainwindow.rc" />
+  </ItemGroup>
+</Project>
