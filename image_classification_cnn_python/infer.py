@@ -1,14 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""
-File: infer.py
-Desc: 图像分类预测（resnet|vgg）
-Author:yanjingang(yanjingang@mail.com)
-Date: 2018/12/26 22:11
-Cmd: python infer.py ./data/image/infer_horse.png
-"""
-
 from __future__ import print_function
 import sys
 import os
